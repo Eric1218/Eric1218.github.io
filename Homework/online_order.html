@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        label {
+            display: inline-block;
+            width: 80px;
+            background-color: white
+        }
+
+        body {
+            margin: 0;
+            background-image:url()
+        }
+
+        img {
+            width: 17%;
+        }
+    </style>
+</head>
+
+<body>
+   <br>
+    <center>
+      <h1>Order Here</h1>
+       <img src="http://images.all-free-download.com/images/graphiclarge/creative_organic_food_logo_vector_587595.jpg" alt="" >
+    </center>
+    <hr>
+    <form action="#">
+        <fieldset>
+            <legend>
+                <h3>Login:</h3>
+            </legend>
+            <label for="">Username:</label>
+            <input type="text" name="username">
+            <br>
+            <label for="">Password:</label>
+            <input type="password" name="password">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>
+                <h3>My Information:</h3>
+            </legend>
+            <select name="gender" id="">
+                <option value="mr">Mr.</option>
+                <option value="ms">Ms.</option>
+                <option value="other">Other
+                </option>
+            </select>
+            <br>
+            <br>
+            <label for="">Name:</label>
+            <input type="text" name="name">
+            <br>
+            <label for="">Phone:</label>
+            <input type="text" name="phone">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>
+                <h3>Home Address:</h3>
+            </legend>
+            <label for="">Street #:</label>
+            <input type="text" name="street">
+            <br>
+            <label for="">Ext :</label>
+            <input type="text" name="ext">
+            <br>
+            <label for="">Street Name:</label>
+            <input type="text" name="street_name">
+            <br>
+            <label for="">Province:</label>
+            <select name="" id="">
+                <option value="ontario">Ontario</option>
+            </select>
+            <br>
+            <label for="">City:</label>
+            <input type="text" name="city">
+            <br>
+            <label for="">Postal Code:</label>
+            <input type="text" name="postal">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>
+                <h3>Order Information:</h3>
+            </legend>
+            <input type="checkbox" name="food" value="pizza">
+            <abbr title="Pizza"><img src="https://media-cdn.tripadvisor.com/media/photo-s/08/d3/14/93/pizz-pub-fugen.jpg" alt="" height=""></abbr> &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="food" value="salad">
+            <abbr title="Salad"><img src="https://realhousemoms.com/wp-content/uploads/Berry-Avocado-Grilled-Chicken-Salad-IG.jpg" alt=""></abbr> &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="food" value="fries">
+            <abbr title="French Fries"><img src="https://cms.splendidtable.org/sites/default/files/styles/w2000/public/french-fries.jpg?itok=FS-YwUYH" alt=""></abbr> &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="food" value="potato">
+            <abbr title="Baked Potato"><img src="https://www.seriouseats.com/recipes/images/2016/10/20161004-baked-potato-vicky-wasik-10-1500x1125.jpg" alt=""></abbr>
+            <br>
+            <br>
+            <label for="">People(1-6):</label>
+            <input type="range" max="6" min="1" name="people">
+            <br>
+            <br>
+            <label for="">Date:</label>
+            <input type="date" name="date">
+            <br>
+            <input type="radio" name="pay" value="master">
+            <abbr title="Mastercard"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/2000px-MasterCard_Logo.svg.png" alt=""></abbr>
+            <input type="radio" name="pay" value="visa">
+            <abbr title="Visa"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/2000px-Visa_Inc._logo.svg.png" alt=""></abbr>
+            <input type="radio" name="pay" value="paypal">
+            <abbr title="PayPal"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/PayPal_logo.svg/2000px-PayPal_logo.svg.png" alt=""></abbr>
+            <input type="radio" name="pay" value="debit">
+            <abbr title="Debit"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/InteracLogo.svg/1200px-InteracLogo.svg.png" alt=""></abbr>
+            <br>
+            <br>
+            <div>Delivery Instruction:</div>
+            <textarea name="comments" id="" cols="50" rows="10"></textarea>
+        </fieldset>
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
