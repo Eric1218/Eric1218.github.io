@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #imgbtn{
+            width: 200px;
+            border-radius: 30px;
+        }
+        img{
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+
+        <input type="file"><br>
+        <input type="hidden" name='toserver' value='step2'>
+        <input type="text" name='toserver' value='step22222'>
+        <input type="submit">
+
+        <!--		button-->
+        <input type="reset">
+        <br>
+        <input type="button" value='OK' onclick='this.value="you clicked"'>
+        <input id="imgbtn" type="image" src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+        <br>
+        <button>
+            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+            <p>This is a very fancy button</p>
+        </button>
+        
+        <input type="text" list="city">
+        <datalist id="city">
+        <option value="Toronto"></option>
+        <option value="London"></option>
+        <option value="Waterloo"></option>
+        </datalist>
+        
+        <select name="city" id="">
+            <option value="Toronto">Toronto</option>
+            <option value="London">London</option>
+            <option value="Waterloo">Waterloo</option>
+        </select>
+        
+        <p>&lt;a></p>
+    </form>
+</body>
+</html>
+
