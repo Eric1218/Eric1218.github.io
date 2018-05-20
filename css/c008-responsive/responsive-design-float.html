@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS responsive design</title>
+    <style>
+        * {
+            /*            padding: 0px*/
+        }
+
+        ul {
+            /*            list-style: none;*/
+            text-align: right;
+        }
+
+        li {
+            display: inline-block;
+        }
+
+        @media all and (min-width:768px) {
+            li {
+                display: block;
+            }
+            ul {
+                text-align: left;
+                width: 40%;
+                border: solid;
+                float: left;
+                list-style-type: square;
+                list-style-position: inside;
+            }
+            section {
+                float: right;
+                width: 50%;
+                border: solid;
+            }
+        }
+    </style>
+
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Posts</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <section>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, fugiat, laborum delectus non earum est modi ipsam unde vero velit maxime repellendus laudantium explicabo atque perferendis inventore saepe eligendi itaque.
+        </section>
+        <section>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, architecto a sed voluptas quas consequatur in! Ab, quasi, maxime, quibusdam dolorem neque voluptas facere sed blanditiis et dolorum nisi soluta. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nulla reiciendis veritatis dolorum incidunt qui! Dolorum, debitis nam ea accusantium ipsam exercitationem sunt! Libero, provident minus doloremque quis dolorum voluptas.
+        </section>
+        <script>
+        </script>
+    </body>
+
+</html>
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Indie Flower', cursive;
+            font-size: 2em;
+            margin: auto;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        figcaption {
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #frame {
+            width: 350px;
+            height: 350px;
+            border: solid 40px;
+            border-image: url(https://mdn.mozillademos.org/files/13060/border-image.png);
+            border-image-slice: 70;
+            border-image-repeat: repeat;
+            background-clip: border-box;
+
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #image {
+            position: relative;
+            top: -18px;
+            left: -18px;
+            width: 110%;
+        }
+
+        hr {
+            width: 50%;
+        }
+
+        object {
+            width: 750px;
+            height: 600px;
+            display: block;
+            margin: auto;
+        }
+
+        #flash {
+            padding-top: 30px;
+            text-align: center;
+        }
+
+        #ps {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Bird Lover</h1>
+    <figure>
+        <img src="https://www.gettyimages.ca/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg" alt="">
+        <figcaption>
+            Birds are flying
+        </figcaption>
+    </figure>
+    <hr>
+    <div id="ps">My Photoshop project</div>
+    <div id="frame"><img id="image" src="/image/StormySea.jpg" alt=""></div>
+    <div id="flash">My Flash video</div>
+    <object data="flash-tianqi.swf" type=""></object>
+</body>
+</html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
@@ -10,17 +11,23 @@
         }
 
         #frame {
-            width: 500px;
-            height: 300px;
-            border: solid 60px;
+            width: 350px;
+            height: 350px;
+            border: solid 40px;
             border-image: url(https://mdn.mozillademos.org/files/13060/border-image.png);
             border-image-slice: 70;
             border-image-repeat: repeat;
+            background-clip: border-box;
+
+            margin-left: auto;
+            margin-right: auto;
         }
 
         img {
-            width: 100%;
-            height: 100%;
+            width: 106%;
+            height: 111%;
+            margin-top: -18px;
+            margin-left: -11px;
         }
 
         #title {
@@ -42,11 +49,13 @@
 </head>
 
 <body>
-    <div id="title">The Starry Night</div>
+    <div id="title">Stormy Sea</div>
     <br>
-    <div id="name">By: Vincent van Gogh</div>
+    <div id="name">By: Eric Ni</div>
     <br>
-    <div id="frame"><img src="http://wisetoast.com/wp-content/uploads/2015/10/Starry-Night-by-Vincent-Van-Gogh-painting.jpg" alt=""></div>
-
+    <div id="frame"><img src="/image/StormySea.jpg" alt=""></div>
 </body>
 </html>
+
+
+

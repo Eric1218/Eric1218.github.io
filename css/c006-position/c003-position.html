@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            height: 3000px;
+        }
+
+        #container {
+            height: 800px;
+            width: 600px;
+            border: double blue;
+
+            position: relative;
+        }
+
+        #item1 {
+            width: 300px;
+            height: 300px;
+            background-color: darkgreen;
+
+            /*            position: static;*/
+            position: relative;
+            right: 150px;
+        }
+
+        #item2 {
+            width: 300px;
+            height: 300px;
+            background-color: blue;
+
+            position: absolute;
+            right: 100px;
+        }
+
+        #item3 {
+            width: 300px;
+            height: 300px;
+            background-image: url(/image/tom1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>Relative is relative to its original position</li>
+        <li>Absolute is relative to the cloest non-static container</li>
+        <li>Relative not free space</li>
+        <li>Absolute free space</li>
+    </ul>
+    <div id="container">
+        <div id="item1"></div>
+        <p>Text</p>
+        <div id="item2"></div>
+        <p>Another Text</p>
+    </div>
+
+    <div id="item3"></div>
+</body>
+</html>

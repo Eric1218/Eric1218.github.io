@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            height: 2000px;
+        }
+
+        #container {
+            width: 600px;
+            height: 500px;
+            border: solid;
+
+            background-image: url(/image/StormySea.jpg);
+            /*            page scroll, background not*/
+            overflow: auto;
+            background-attachment: local;
+        }
+
+        #item {
+            height: 3000px;
+            width: 3000px;
+            background-color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="item"></div>
+    </div>
+</body>
+</html>

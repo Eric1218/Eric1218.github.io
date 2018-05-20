@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #container {
+            width: 400px;
+            height: 400px;
+            border: solid;
+        }
+
+        #one,
+        #two {
+            width: 200px;
+            height: 200px;
+            color: white;
+            font-size: 40px;
+        }
+
+        #one {
+            background-color: blue;
+            position: relative;
+            z-index: 2;
+        }
+
+        #two {
+            background-color: red;
+            position: relative;
+            top: -100px;
+            left: 100px;
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="one">one</div>
+        <div id="two">two</div>
+    </div>
+</body>
+</html>

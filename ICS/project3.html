@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List</title>
+    <style>
+        #contents {
+            text-decoration: underline;
+        }
+
+        #two {
+            font-weight: bold;
+        }
+
+        #two1,
+        #three,
+        #four {
+            font-weight: normal;
+        }
+
+        ul {
+            font-style: italic;
+        }
+
+        hr {
+            height: 6px;
+            background-color: black;
+            border-radius: 10px;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <hr>
+    <div id="contents">Contents</div>
+    <ol id="two">
+        <li>Introduction to tables</li>
+        <li>Elements for constructing tables</li>
+        <ol id="two1">
+            <li>The TABLE element</li>
+            <ul>
+                <li>Table directionality</li>
+            </ul>
+            <li>Table Captions: The CAPTION element</li>
+            <li>Row groups: the THEAD, TFOOT, and TBODY elements</li>
+            <li>Column groups: the COLGROUP and COL elements</li>
+            <ul>
+                <li>The COLGROUP element</li>
+                <li>The COL element</li>
+                <li>Calculating the number of columns in a table</li>
+                <li>Calculating the width of columns</li>
+            </ul>
+            <li>Table rows: The TR element</li>
+            <li>Table cells: The TH and TD elements</li>
+            <ul>
+                <li>Cells that span several rows or columns</li>
+            </ul>
+        </ol>
+        <li>Table formatting by visual user agents</li>
+        <ol id="three">
+            <li>Borders and rules</li>
+            <li>Horizontal and vertical alignment</li>
+            <ul>
+                <li>Inheritance of alignment specifications</li>
+            </ul>
+            <li>Cell margins</li>
+        </ol>
+        <li>Table rendering by non-visual user agents</li>
+        <ol id="four">
+            <li>Associating header information with data cells</li>
+            <li>Categorizing cells</li>
+            <li>Algorithm to find heading information</li>
+        </ol>
+        <li>Sample table</li>
+    </ol>
+    <hr>
+</body>
+</html>

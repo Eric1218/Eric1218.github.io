@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div {
+            display: inline-block;
+            width: 300px;
+            height: 300px;
+        }
+
+        #topleft {
+            background: linear-gradient(to bottom right, blue, skyblue, white);
+        }
+
+        #topright {
+            background: linear-gradient(to bottom left, blue, skyblue, white);
+            margin-left: -4px;
+        }
+
+        #bottomleft {
+            background: linear-gradient(to top right, blue, skyblue, white);
+            margin-top: -4px;
+        }
+
+        #bottomright {
+            background: linear-gradient(to top left, blue, skyblue, white);
+            margin-top: -4px;
+            margin-left: -4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="topleft"></div>
+    <div id="topright"></div><br>
+    <div id="bottomleft"></div>
+    <div id="bottomright"></div>
+</body>
+</html>
